@@ -1,0 +1,77 @@
+
+table{
+ border-collapse: collapse;
+}
+.grid-table{
+ margin-top: 2.5rem;
+ display: grid;
+ grid-template-columns:99%;
+ margin: 1rem;
+}
+.student-table{
+background: #fff;
+position: relative;
+}
+
+.table-body{
+    max-height: calc(100vh - 220px);
+    overflow-y: auto;
+    position: relative;
+}
+.table-header,.table-body{
+ padding: 1rem;
+}
+.table-header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ text-transform: capitalize;
+}
+.table-header button,td button{
+ background: rgb(225, 125, 125);
+ border-radius: 10px;
+ color: #fff;
+ font-size: .8rem;
+ text-transform: capitalize;
+ padding: .5rem 1rem;
+}
+.table-header h2{
+ font-weight: bold;
+}
+
+thead tr{
+ border-top: 1px solid #f0f0f0;
+ border-bottom: 1px solid #f0f0f0;
+ text-transform: capitalize;
+}
+thead tr td{
+ font-weight:700;
+}
+td{
+ padding: .5rem 1rem;
+ font-size: 0.895rem;
+ color: #222;
+}
+ td .status{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: .2rem;
+  border-radius: 50%;
+  background: rgb(234, 10, 10);
+ }
+ td .active{
+  background: rgb(21, 230, 77);
+ }
+ td .danger{
+  background: rgb(240, 20, 60);
+ }
+ tr td:last-child{
+  display: flex;
+  align-items: center;
+ }
+ .table{
+  width: 100%;
+  overflow-x: auto;
+ }
+
