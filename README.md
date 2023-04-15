@@ -10,7 +10,7 @@ An image uploading system implemented in PHP and MySQL allows users to store and
 ## Database SetUp 
 1) check the folder database to create databse and tables
 2) fire all queries and create database, tables
-3) once all setup completed start XAMM and run Apache and mysql
+3) once all setup completed, start on your local system XAMPP and run Apache and mysql
 
 ## Steps to get access
 1) click on don't have account
