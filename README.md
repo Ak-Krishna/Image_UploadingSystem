@@ -7,12 +7,12 @@ An image uploading system implemented in PHP and MySQL allows users to store and
 2) command for cloning --> $git clone https://github.com/Ak-Krishna/Image_UploadingSystem.git
 3) Visit GitHub Profile --> https://github.com/Ak-Krishna/Image_UploadingSystem
 
-#Database SetUp 
+## Database SetUp 
 1) check the folder database to create databse and tables
 2) fire all queries and create database, tables
 3) once all setup completed start XAMM and run Apache and mysql
 
-#Steps to get access
+## Steps to get access
 1) click on don't have account
 2) create account and login to dashboard
 
