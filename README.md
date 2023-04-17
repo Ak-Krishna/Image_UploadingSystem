@@ -4,11 +4,14 @@ An image uploading system implemented in PHP and MySQL allows users to store and
 
 # Project Setup :
 
-1) Clone the respository directly in 'C:\xampp\htdocs'
-2) command for cloning --> $git clone https://github.com/Ak-Krishna/Image_UploadingSystem.git
-3) Visit GitHub Profile --> https://github.com/Ak-Krishna/Image_UploadingSystem
+1) Go to the Folder directly in 'C:\xampp\htdocs'
+2) Right click and open with Git bash
+3) fire command--> $git init
+3) fire command for cloning --> $git clone https://github.com/Ak-Krishna/Image_UploadingSystem.git OR
+4) Visit GitHub Profile --> https://github.com/Ak-Krishna/Image_UploadingSystem
 
 ## Database SetUp 
+1) Before run program create databse and tables
 1) check the folder database to create databse and tables
 2) fire all queries and create database, tables
 3) once all setup completed, start on your local system XAMPP and run Apache and mysql
